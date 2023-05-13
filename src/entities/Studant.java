@@ -1,6 +1,6 @@
 package entities;
 
-import java.util.List;
+
 
 public class Studant {
 
@@ -39,4 +39,8 @@ public class Studant {
     public int getCode() {
         return code;
     }
+    public float getAverage() {
+        return (testOne + testTwo + testThree) / 3.0f;
+    }
+    
 }
